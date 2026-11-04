@@ -1,0 +1,2 @@
+   # tddNode-ayfo2627
+   Este proyecto consiste en practicar el desarrollo guiado por pruebas (TDD) utilizando JavaScript y Vitest. El objetivo es crear funciones, comprobar su funcionamiento mediante pruebas y mejorar el código sin cambiar sus resultados.
