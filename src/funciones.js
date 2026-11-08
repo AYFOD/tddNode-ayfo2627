@@ -1,4 +1,15 @@
-function fibonacci(n) {
+export function fibonacci(n) {
+    if (n < 0 || !Number.isInteger(n)) {
+        throw new RangeError('solo números enteros ≥ 0');
+    }
+
+    if (n == 0) {
+        return 0;
+    }
+
+    if (n == 1) {
+        return 1;
 }
 
-export { fibonacci };
+    return fibonacci(n - 1) + fibonacci(n -2);
+}
